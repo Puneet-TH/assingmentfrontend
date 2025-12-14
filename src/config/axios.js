@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://assingment-m41t.onrender.com'
+  baseURL: 'https://assingment-m41t.onrender.com'
 });
 
 // Add token to requests if it exists
